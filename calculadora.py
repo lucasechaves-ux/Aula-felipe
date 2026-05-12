@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 import random
+from zoneinfo import Zoneinfo
 
 st.set_page_config(page_title="Meu Primeiro App Python", page_icon="🐍", layout="centered")
 
@@ -16,7 +17,7 @@ chamada = st.text_input("Digite seu número:")
 # ===== BOTÃO =====
 if st.button("Executar Programa 🚀"):
 
-    agora = datetime.datetime.now()
+    agora = datetime.datetime.now(Zoneinfo('America/Sao_Paulo'))
 
     tecnologias = ["Python", "GitHub"]
 
