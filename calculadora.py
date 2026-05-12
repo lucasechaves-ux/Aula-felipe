@@ -17,7 +17,7 @@ chamada = st.text_input("Digite seu número:")
 # ===== BOTÃO =====
 if st.button("Executar Programa 🚀"):
 
-    agora = datetime.datetime.now(ZoneInfo('America/Brasília'))
+    agora = datetime.datetime.now(ZoneInfo('America/Sao_Paulo'))
 
     tecnologias = ["Python", "GitHub"]
 
