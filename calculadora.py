@@ -1,7 +1,7 @@
 import streamlit as st
 import datetime
 import random
-from zoneinfo import Zoneinfo
+from Zoneinfo import Zoneinfo
 
 st.set_page_config(page_title="Meu Primeiro App Python", page_icon="🐍", layout="centered")
 
