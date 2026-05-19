@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD:calculdora1.py
+=======
+"""
+Alterando o arquivo
+"""
+>>>>>>> feature/menu:calculdora.py
 
 # Importações
 import datetime
